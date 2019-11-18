@@ -1,0 +1,338 @@
+@charset "UTF-8";
+
+/* Couleur de fond */
+body {
+    
+    background-color: rebeccapurple;
+    text-align: center;
+    font-family: 'Georgia', sans-serif;
+    
+}
+
+
+/* On enlève les paddings */
+
+body, html {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+        /* [Classe bootstrap ] */
+/*On enlève les paddings à la carrousel*/
+
+.container-fluid { 
+    padding: 0; 
+}
+
+
+/*--------------------------------------------------*/
+
+
+/* Header */
+
+.header {
+    background-color: #9C74A4;
+    height: 70px;
+    line-height: 70px;
+    
+}
+
+.logo {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    float: left;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    
+}
+
+.logo:hover {  /* Lorque l'on survole le logo */
+    color: #10021c;
+    transition: 0.30s;
+    text-decoration: none; 
+}
+
+/* Le menu correspond au nav */
+.menu { 
+    float: right;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    
+}
+
+.menu a {
+    color: #ffffff;
+    margin-right: 20px;
+    padding: 15px;
+    
+}
+
+
+.menu a .imgPique{
+    height: 26px;
+}
+
+.menu a .imgCoeur{
+    height: 20px;
+}
+
+.menu a .imgTrefle{
+    height: 23px;
+}
+
+.menu a .imgCarreau{
+    height: 24px;
+}
+
+
+
+.menu a:hover {
+    color: #10021c;
+    transition: 0.65s;
+    text-decoration: none;
+}
+
+
+.menu a:hover .imgPique {
+    transform-origin: center;
+    transition: 0.70s;
+    -webkit-transition: 0.70s; /* Chrome / Safari*/
+    -moz-transition: 0.70s; /* Mozilla*/
+    -ms-transition: 0.70s; /* Internet explorer */
+    -o-transition: 0.70s; /* Opera */
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+
+.menu a:hover .imgCoeur {
+    transform-origin: center;
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.menu a:hover .imgTrefle {
+    transform-origin: center;
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.menu a:hover .imgCarreau {
+    transform-origin: center;
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.menu a img {
+    padding-right: 10px;
+}
+
+/* ------------------------------------------*/
+
+/* Bannière */
+
+.banner {
+    width: 100%;
+    max-width: 100%
+}
+
+.ban {
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+}
+
+.ban img {
+    width: 100%;
+    max-width: 100%;
+    
+}
+
+
+
+/* -----------------------*/
+
+/* Séparateur */
+
+.separateur {
+    height: 3px;
+    width: 80%;
+    border: none;
+    box-shadow: none;
+    background-color: #f4cbcb;
+    
+}
+/* -----------------------*/
+
+
+
+/* Strucutre du site */
+
+.contenant {
+    
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #f4cbcb;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.boite {
+   margin-top: 8%;
+    
+    
+}
+
+
+.boiteBlog {
+    border: 1px solid;
+  
+}
+
+.boiteBlog a {
+    color: #f4cbcb;
+    text-decoration: none;
+    
+    
+}
+
+.boiteBlog a:hover {
+    color: #10021c;
+    transition: 0.30s;
+    text-decoration: none; 
+}
+
+
+@media screen and (max-width:1000px) {
+  .contenant{
+    width:90%; /* Sous 1000px, le contenant prendra 90% de la page. */
+  }
+}
+
+
+
+
+
+/* Début Bootstrap pour image galerie */
+
+.about article h2 {
+    text-align: center;
+    
+}
+
+.about article  {
+    margin-top: 8%;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: #f4cbcb;
+}
+
+/* Fin Bootstrap pour image galerie */
+
+
+
+/* -----------------------*/
+.carouManga {
+    color:white; 
+    background-color: rgba(88, 88, 88, 0.81);
+}
+
+
+.cara {
+    text-align: center;
+    }
+
+
+/*Thèmes*/
+.cara2 { 
+    text-align: center;
+    cursor: pointer;
+    }
+
+
+/* -----------------------*/
+
+
+
+
+
+/* Footer */
+
+footer {
+    background-color: #9C74A4;
+    height: 205px;
+    text-align:center;
+    color: #ffffff;
+    
+}
+
+.navfooter a {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    float:none;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-decoration: none;
+    
+}
+
+.navfooter a:hover {
+    color: #10021c;
+    transition: 0.30s;
+    text-decoration: none; 
+}
+
+
+.navfooter a:hover .imgCarreau {
+    transform-origin: center;
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+    
+}
+    
+/* Fin Footer */
+
+
+
+
+
+
+

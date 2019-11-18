@@ -1,0 +1,324 @@
+@charset "UTF-8";
+/* Couleur de fond */
+body {
+    
+    background-color: rebeccapurple;
+    
+}
+
+
+
+
+/* On enlève les paddings */
+
+body, html {
+    padding: 0;
+    margin: 0;
+}
+
+/* Police appliquée au body */
+
+
+body {
+    font-family: 'Georgia', sans-serif;
+}
+
+.container-fluid { /* Class bootstrap pour enlver les paddings */
+    padding: 0; 
+}
+
+/* Header */
+
+.header {
+    background-color: #9C74A4;
+    height: 70px;
+    line-height: 70px;
+    
+}
+
+.logo {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    float: left;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    
+}
+
+.logo:hover {
+    color: #10021c;
+    transition: 0.30s;
+    text-decoration: none; 
+}
+
+.menu {
+    float: right;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    padding: 
+}
+
+.menu a {
+    color: #ffffff;
+    margin-right: 20px;
+    padding: 15px;
+    
+}
+
+.menu a .imgPique{
+    height: 26px;
+}
+
+.menu a .imgCoeur{
+    height: 20px;
+}
+
+.menu a .imgTrefle{
+    height: 23px;
+}
+
+.menu a .imgCarreau{
+    height: 24px;
+}
+
+
+.menu a:hover {
+    color: #10021c;
+    transition: 0.65s;
+    text-decoration: none;
+}
+
+
+.menu a:hover .imgPique {
+    transform-origin: center;
+      transition: 0.70s;
+  -webkit-transition: 0.70s;
+  -moz-transition: 0.70s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+
+.menu a:hover .imgCoeur {
+    transform-origin: center;
+      transition: 0.70s;
+  -webkit-transition: 0.70s;
+  -moz-transition: 0.70s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.menu a:hover .imgTrefle {
+    transform-origin: center;
+      transition: 0.70s;
+  -webkit-transition: 0.70s;
+  -moz-transition: 0.70s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.menu a:hover .imgCarreau {
+    transform-origin: center;
+      transition: 0.70s;
+  -webkit-transition: 0.70s;
+  -moz-transition: 0.70s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.menu a img {
+    padding-right: 10px;
+}
+
+/* Bannière */
+
+.banner {
+    width: 100%;
+    max-width: 100%
+}
+
+.ban {
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+}
+
+.ban img {
+    width: 100%;
+    max-width: 100%;
+    
+}
+
+.inner-banner {
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    
+}
+
+.inner-banner h1 {
+    color: aliceblue;
+    text-shadow: 1px 1px 20px #000000; 
+    font-size: 70px;
+}
+
+.inner-banner .btn-custom {
+    background-color: #9C74A4;
+    color: white;
+}
+
+/* About */
+
+.separateur {
+    height: 3px;
+    width: 80%;
+    border: none;
+    box-shadow: none;
+    background-color: #f4cbcb;
+    
+}
+
+/* --------------------------------------*/
+
+
+
+
+
+.contenant {
+    
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    color: #f4cbcb;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.boite {
+   margin-top: 8%;
+    
+    
+}
+
+.info {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 8%;
+}
+
+@media screen and (max-width:1000px) {
+  .contenant{
+    width:90%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------------------*/
+
+.carouManga {
+    color:white; 
+    background-color: rgba(88, 88, 88, 0.81);
+}
+
+
+
+@media (max-width: 1000px) {
+    
+    h1 {
+        padding-left: 20px;
+        padding-right: 20px;7
+       
+    }
+    
+    
+}
+
+.cara {
+    text-align: center;
+    
+}
+
+/* Portfolio */
+
+
+/* Footer */
+
+.footer {
+    background-color: #9C74A4;
+    height: 205px;
+    text-align:center;
+    color: #ffffff;
+    
+}
+
+.navfooter a {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    float:none;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-decoration: none;
+    
+}
+
+.navfooter a:hover {
+    color: #10021c;
+    transition: 0.30s;
+    text-decoration: none; 
+}
+
+
+.navfooter a:hover .imgCarreau {
+    transform-origin: center;
+      transition: 0.70s;
+  -webkit-transition: 0.70s;
+  -moz-transition: 0.70s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+    
+}
+    
+/* Mentions légales */
+
+
+
